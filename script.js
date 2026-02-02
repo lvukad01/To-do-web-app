@@ -3,13 +3,13 @@
 
 document.addEventListener("DOMContentLoaded",()=> {
    const btn= document.getElementById("add-task-btn");
-   const form= document.getElementById("form");
+   const form= document.getElementById("form1");
 
    btn.addEventListener("click", () => {
       form.classList.toggle("hidden");
    });
 });
-const form = document.getElementById("form");
+const form = document.getElementById("form1");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();

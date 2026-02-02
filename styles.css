@@ -1,4 +1,11 @@
-
+body{
+    background-color: rgb(235, 245, 171);
+    text-align: center;
+    justify-content:center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
 button{
     background-color: rgb(188, 154, 220);
     color:white;
@@ -6,36 +13,87 @@ button{
     border:none;
     border-radius:15px;
     cursor:pointer;
+    justify-self: center;
+    
 }
 form{
     border: 1px solid black;
     width:fit-content;
     border-radius: 10px;
+    text-align: center;
 }
 input{
     padding:8px;
     border:1px solid #ccc;
     border-radius:4px;
-    background-color: rgb(188, 154, 220);
+    background-color: rgb(235, 143, 221);
     color:black;
 }
 select{
-    background-color: rgb(188, 154, 220);
+    background-color: rgb(235, 143, 221);
     color:black;
 }
 option{
-    background-color: rgb(188, 154, 220);
+    background-color: rgb(235, 143, 221);
     color:black;
 }
 label{
-    background-color: rgb(188, 154, 220 );
+    background-color: rgb(235, 143, 221);
 }
 .hidden{
     display:none;
 }
 form{
     margin:20px 0;
+    background-color: rgb(235, 143, 221);
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+#form1{
     background-color: rgb(188, 154, 220);
+}
+#form1 input{
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    background-color: rgb(188, 154, 220);
+    color:black;
+}
+#form1 input,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: black !important;
+    background-color: rgb(188, 154, 220);
+  transition: background-color 9999s ease-in-out 0s;
+}
 
-    
+
+#form1 input:visited{
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    background-color: rgb(188, 154, 220);
+    color:black;
+}
+#form1 select{
+    background-color: rgb(188, 154, 220);
+    color:black;
+}
+#form1 option{
+    background-color: rgb(188, 154, 220);
+    color:black;
+}
+#form1 label{
+    background-color: rgb(188, 154, 220 );
+}
+#add-task-btn{
+    margin-top:10px;
+    padding:20px 40px;
+    border: 1px solid black;
+    border-radius:20px;
+    cursor:pointer;
+    justify-self: center;
 }
